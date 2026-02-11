@@ -1,0 +1,15 @@
+{
+  "name": "emaktab-telegram-bot",
+  "version": "1.0.0",
+  "description": "Telegram bot for eMaktab.uz automation",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "run-screenshots": "node -e \"require('./automation').runAllScreenshots().catch(console.error)\""
+  },
+  "dependencies": {
+    "telegraf": "^4.16.3",
+    "playwright": "^1.58.2",
+    "node-cron": "^3.0.3"
+  }
+}
